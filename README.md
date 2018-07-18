@@ -15,8 +15,8 @@ brew install maven
 jdk 1.8.0_60
 ```
 ### CucumberJVM Structure
-Test file resides in the features directory; ie. src/test/resources/features/search.feature
-The step definition resides in the step-definitions directory; ie. src/test/java/org.david.code/step_definitions/search.java
+Test file resides in the features directory; ie. **src/test/resources/features/search.feature**
+The step definition resides in the step-definitions directory; ie. **src/test/java/org.david.code/step_definitions/search.java**
 
 ### Running the tests
 
@@ -26,4 +26,4 @@ mvn clean verify
 ```
 
 ### Reporting
-Each run will output results in the terminal as well as an html report under target/cucumber-html-reports/overview-features.html
+Each run will output results in the terminal as well generating an html report; **target/cucumber-html-reports/overview-features.html**
