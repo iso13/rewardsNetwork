@@ -1,0 +1,287 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "properties": {
+    "login": {
+      "$id": "/properties/login",
+      "type": "string",
+      "title": "The Login Schema ",
+      "default": "",
+      "examples": [
+        "iso13"
+      ]
+    },
+    "id": {
+      "$id": "/properties/id",
+      "type": "integer",
+      "title": "The Id Schema ",
+      "default": 0,
+      "examples": [
+        2349525
+      ]
+    },
+    "node_id": {
+      "$id": "/properties/node_id",
+      "type": "string",
+      "title": "The Node_id Schema ",
+      "default": "",
+      "examples": [
+        "MDQ6VXNlcjIzNDk1MjU="
+      ]
+    },
+    "avatar_url": {
+      "$id": "/properties/avatar_url",
+      "type": "string",
+      "title": "The Avatar_url Schema ",
+      "default": "",
+      "examples": [
+        "https://avatars2.githubusercontent.com/u/2349525?v=4"
+      ]
+    },
+    "gravatar_id": {
+      "$id": "/properties/gravatar_id",
+      "type": "string",
+      "title": "The Gravatar_id Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "url": {
+      "$id": "/properties/url",
+      "type": "string",
+      "title": "The Url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/users/iso13"
+      ]
+    },
+    "html_url": {
+      "$id": "/properties/html_url",
+      "type": "string",
+      "title": "The Html_url Schema ",
+      "default": "",
+      "examples": [
+        "https://github.com/iso13"
+      ]
+    },
+    "followers_url": {
+      "$id": "/properties/followers_url",
+      "type": "string",
+      "title": "The Followers_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/users/iso13/followers"
+      ]
+    },
+    "following_url": {
+      "$id": "/properties/following_url",
+      "type": "string",
+      "title": "The Following_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/users/iso13/following{/other_user}"
+      ]
+    },
+    "gists_url": {
+      "$id": "/properties/gists_url",
+      "type": "string",
+      "title": "The Gists_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/users/iso13/gists{/gist_id}"
+      ]
+    },
+    "starred_url": {
+      "$id": "/properties/starred_url",
+      "type": "string",
+      "title": "The Starred_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/users/iso13/starred{/owner}{/repo}"
+      ]
+    },
+    "subscriptions_url": {
+      "$id": "/properties/subscriptions_url",
+      "type": "string",
+      "title": "The Subscriptions_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/users/iso13/subscriptions"
+      ]
+    },
+    "organizations_url": {
+      "$id": "/properties/organizations_url",
+      "type": "string",
+      "title": "The Organizations_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/users/iso13/orgs"
+      ]
+    },
+    "repos_url": {
+      "$id": "/properties/repos_url",
+      "type": "string",
+      "title": "The Repos_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/users/iso13/repos"
+      ]
+    },
+    "events_url": {
+      "$id": "/properties/events_url",
+      "type": "string",
+      "title": "The Events_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/users/iso13/events{/privacy}"
+      ]
+    },
+    "received_events_url": {
+      "$id": "/properties/received_events_url",
+      "type": "string",
+      "title": "The Received_events_url Schema ",
+      "default": "",
+      "examples": [
+        "https://api.github.com/users/iso13/received_events"
+      ]
+    },
+    "type": {
+      "$id": "/properties/type",
+      "type": "string",
+      "title": "The Type Schema ",
+      "default": "",
+      "examples": [
+        "User"
+      ]
+    },
+    "site_admin": {
+      "$id": "/properties/site_admin",
+      "type": "boolean",
+      "title": "The Site_admin Schema ",
+      "default": false,
+      "examples": [
+        false
+      ]
+    },
+    "name": {
+      "$id": "/properties/name",
+      "type": "string",
+      "title": "The Name Schema ",
+      "default": "",
+      "examples": [
+        "David Tran"
+      ]
+    },
+    "company": {
+      "$id": "/properties/company",
+      "type": "null",
+      "title": "The Company Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "blog": {
+      "$id": "/properties/blog",
+      "type": "string",
+      "title": "The Blog Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "location": {
+      "$id": "/properties/location",
+      "type": "null",
+      "title": "The Location Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "email": {
+      "$id": "/properties/email",
+      "type": "null",
+      "title": "The Email Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "hireable": {
+      "$id": "/properties/hireable",
+      "type": "null",
+      "title": "The Hireable Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "bio": {
+      "$id": "/properties/bio",
+      "type": "null",
+      "title": "The Bio Schema ",
+      "default": null,
+      "examples": [
+        null
+      ]
+    },
+    "public_repos": {
+      "$id": "/properties/public_repos",
+      "type": "integer",
+      "title": "The Public_repos Schema ",
+      "default": 0,
+      "examples": [
+        9
+      ]
+    },
+    "public_gists": {
+      "$id": "/properties/public_gists",
+      "type": "integer",
+      "title": "The Public_gists Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "followers": {
+      "$id": "/properties/followers",
+      "type": "integer",
+      "title": "The Followers Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "following": {
+      "$id": "/properties/following",
+      "type": "integer",
+      "title": "The Following Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "created_at": {
+      "$id": "/properties/created_at",
+      "type": "string",
+      "title": "The Created_at Schema ",
+      "default": "",
+      "examples": [
+        "2012-09-14T21:45:50Z"
+      ]
+    },
+    "updated_at": {
+      "$id": "/properties/updated_at",
+      "type": "string",
+      "title": "The Updated_at Schema ",
+      "default": "",
+      "examples": [
+        "2018-05-03T22:53:38Z"
+      ]
+    }
+  }
+}
