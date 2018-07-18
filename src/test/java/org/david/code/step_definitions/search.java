@@ -22,34 +22,11 @@ public class search {
     private Response response;
 
 
-
     @Given("^I perform a GET request \"([^\"]*)\"$")
     public void i_perform_a_GET_request(String basePath) {
         response = RestAssured.when().get(baseURI + basePath);
         CucumberLog.info("THE URL IS: " + baseURI + basePath);
         response.then().log().all();
-    }
-
-    @Given("^I perform a POST request \"([^\"]*)\" with the following json \"([^\"]*)\"$")
-    public void i_perform_a_POST_request_with_the_following_json(String arg1, String arg2) throws Exception {
-
-    }
-
-
-    @Given("^I perform a POST request \"([^\"]*)\"$")
-    public void i_perform_a_POST_request(String jsonBody) throws Exception {
-        //String jsonBodyFiilePath = "json/" + jsonBody;
-        //response.given().contentType("application/json").body(jsonBodyFiilePath).when().post
-    }
-
-    @Given("^I perform a PUT request \"([^\"]*)\"$")
-    public void i_perform_a_PUT_request(String arg1) throws Exception {
-
-    }
-
-    @Given("^I perform a DELETE request \"([^\"]*)\"$")
-    public void i_perform_a_DELETE_request(String arg1) throws Exception {
-
     }
 
     @Then("^the response code should be (\\d+)$")
